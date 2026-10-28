@@ -1,5 +1,11 @@
 # Repository Guidelines
 
+## Agent Guidance
+
+- Before modifying files, read applicable `AGENTS.md` files from the repository root through each target directory; do not assume nested instructions are loaded automatically.
+- Read steering documents when their loading conditions apply, before performing the relevant work. Load only task-relevant guidance and follow additional references only as needed for that task.
+- Before creating or modifying agent instructions, steering documents, or skills, read `.agents/steering/agent-steering.md`.
+
 ## Documentation
 
 - Treat code and tooling as the source of truth. Do not duplicate implementation details, API definitions, dependency graphs, or configuration in documentation.
