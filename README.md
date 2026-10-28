@@ -10,6 +10,10 @@ A personal suite of native iOS apps and self-hosted services, built to work toge
 - **Self-hosted services:** Infrastructure and data under personal control.
 - **Intentional dependencies:** Prefer Apple frameworks; add third-party mobile dependencies only when clearly justified.
 
+## Documentation
+
+See the [documentation index](docs/README.md) for project decisions and, as they are added, working guides and proposals.
+
 ## Status
 
 Early planning. Apps, services, architecture, and tooling are still taking shape. This monorepo will house the clients, shared modules, and backend services.
