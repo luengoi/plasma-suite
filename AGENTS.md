@@ -1,5 +1,24 @@
 # Repository Guidelines
 
+## Documentation
+
+- Treat code and tooling as the source of truth. Do not duplicate implementation details, API definitions, dependency graphs, or configuration in documentation.
+- Use working guides for actionable development and operational instructions that cannot reasonably be discovered from code or tooling.
+- Use proposals to explore changes and decision records to capture important choices and their reasoning.
+- Prefer executable tooling over manual instructions; simplify or remove guides when workflows become automated.
+- Keep one authoritative home per topic. Link rather than duplicate, and update affected guides alongside changes.
+
+### Structure
+
+- `README.md`: brief project overview and links to documentation.
+- `docs/README.md`: documentation index, when needed.
+- `docs/guides/<topic>.md`: project-wide development and operational guides.
+- `docs/proposals/<topic>.md`: proposed changes, options, and open questions; record their status and link to resulting decisions when applicable.
+- `docs/decisions/NNNN-<topic>.md`: sequentially numbered decision records with status, context, decision, and consequences. Preserve historical reasoning; supersede rather than rewrite past decisions.
+- Component-local `README.md` files: instructions specific to that app, service, or module; keep longer local guides in a neighboring `docs/` directory.
+
+Use Markdown, descriptive kebab-case filenames, and relative links. Create documents and directories only when needed.
+
 ## Commits
 
 - Use Conventional Commits: `<type>[optional scope]: <description>`.
