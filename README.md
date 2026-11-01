@@ -12,7 +12,7 @@ A personal suite of native iOS apps and self-hosted services, built to work toge
 
 ## Documentation
 
-See the [documentation index](docs/README.md) for project decisions and, as they are added, working guides and proposals.
+See the [documentation index](docs/README.md) for project decisions, working guides, and specs.
 
 ## Status
 

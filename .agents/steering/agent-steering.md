@@ -8,7 +8,7 @@ Applies when creating or modifying agent instructions, steering documents, or sk
 - `.agents/steering/<topic>.md`: focused conventions and constraints loaded when relevant to a task.
 - Scoped `AGENTS.md` files: instructions specific to a directory and its descendants. Add them only when local requirements justify them.
 - `.agents/skills/<name>/SKILL.md`: on-demand workflows, optionally supported by scripts, references, and templates. Mandatory conventions must not depend solely on skill selection.
-- `docs/`: working guides, proposals, and decision records, not agent-specific instructions.
+- `docs/`: working guides, specs, and decision records, not agent-specific instructions.
 
 ## Defining loading conditions
 

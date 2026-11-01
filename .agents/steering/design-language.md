@@ -7,7 +7,7 @@ Applies before designing, implementing, or reviewing mobile UI, shared UI compon
 - Follow a **calm and precise, native iOS** direction with clear hierarchy, **Liquid Glass**, and **vibrant color used deliberately**. Calm does not mean muted accents everywhere.
 - Keep the language generic across the suite. App workflows, content, and identity can differ; do not impose a common dashboard or identical navigation destinations.
 - This document is the authoritative home for shared design guidance. Code is authoritative for implemented token values and component APIs. Reuse the [PlasmaUI foundation](../../ios/foundation/PlasmaUI/) and inspect existing components before adding equivalents.
-- Treat proposal details and exploratory code as provisional unless explicitly selected. Do not promote a preview's palette, geometry, sample content, or behavior into suite-wide defaults simply because it exists.
+- Treat draft specs and exploratory code as provisional unless explicitly selected. Do not promote a preview's palette, geometry, sample content, or behavior into suite-wide defaults simply because it exists.
 
 ## Visual hierarchy and references
 
@@ -56,4 +56,4 @@ Applies before designing, implementing, or reviewing mobile UI, shared UI compon
 - Use consistent, clearly identified sample data when comparing directions. Keep prototype-only capabilities distinguishable from working features.
 - Build changed code and inspect rendered output. For visual work, provide screenshots or previews and check clipping, wrapping, hierarchy, touch targets, and floating-control clearance.
 - Validate relevant states and representative accessibility text sizes, appearances, and localization cases. Report what was actually checked and any gaps. Validate gesture feel and haptics on a physical device before treating them as proven.
-- Keep this guidance concise. Keep open design decisions and feature specifications in proposals rather than duplicating them here. Update guidance when a design decision changes; keep token values and implementation details in code.
+- Keep this guidance concise. Keep open design decisions and feature specifications in `docs/specs/`, and prototype specifications in `docs/specs/prototypes/`, rather than duplicating them here. Update guidance when a design decision changes; keep token values and implementation details in code.

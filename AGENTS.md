@@ -11,7 +11,7 @@
 
 - Treat code and tooling as the source of truth. Do not duplicate implementation details, API definitions, dependency graphs, or configuration in documentation.
 - Use working guides for actionable development and operational instructions that cannot reasonably be discovered from code or tooling.
-- Use proposals to explore changes and decision records to capture important choices and their reasoning.
+- Use specs to define scope, expected behavior, and acceptance criteria, and decision records to capture important choices and their reasoning. Mark draft specs and unresolved choices explicitly.
 - Prefer executable tooling over manual instructions; simplify or remove guides when workflows become automated.
 - Keep one authoritative home per topic. Link rather than duplicate, and update affected guides alongside changes.
 
@@ -20,7 +20,8 @@
 - `README.md`: brief project overview and links to documentation.
 - `docs/README.md`: documentation index, when needed.
 - `docs/guides/<topic>.md`: project-wide development and operational guides.
-- `docs/proposals/<topic>.md`: proposed changes, options, and open questions; record their status and link to resulting decisions when applicable.
+- `docs/specs/<topic>.md`: specifications with scope, expected behavior, acceptance criteria, status, and open questions.
+- `docs/specs/prototypes/<topic>.md`: prototype specifications; distinguish experimental behavior and simulated capabilities from production requirements.
 - `docs/decisions/NNNN-<topic>.md`: sequentially numbered decision records with status, context, decision, and consequences. Preserve historical reasoning; supersede rather than rewrite past decisions.
 - Component-local `README.md` files: instructions specific to that app, service, or module; keep longer local guides in a neighboring `docs/` directory.
 
