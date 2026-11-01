@@ -1,5 +1,9 @@
 # Documentation
 
+## Design guidance
+
+- [Design language](../.agents/steering/design-language.md) — shared design rules for agents working on mobile UI.
+
 ## Decision records
 
 - [0001: Use a single repository](decisions/0001-use-a-single-repository.md)

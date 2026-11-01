@@ -5,6 +5,7 @@
 - Before modifying files, read applicable `AGENTS.md` files from the repository root through each target directory; do not assume nested instructions are loaded automatically.
 - Read steering documents when their loading conditions apply, before performing the relevant work. Load only task-relevant guidance and follow additional references only as needed for that task.
 - Before creating or modifying agent instructions, steering documents, or skills, read `.agents/steering/agent-steering.md`.
+- Before designing, implementing, or reviewing mobile UI, shared UI components, visual assets, or design explorations, read `.agents/steering/design-language.md`.
 
 ## Documentation
 
